@@ -1,0 +1,119 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+.app-container {
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  /* background-color: #AC50A0; */
+
+}
+.todo-header {
+  font-size: 2rem;
+  text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  background-color: #AC50A0;
+  padding: 20px;
+}
+
+.welcome-text {
+  font-size: 18px;
+}
+
+.username {
+  font-weight: bold;
+  /* color: #4caf50; */
+}
+
+.logout-button {
+  padding: 5px 10px;
+  background-color: #422938;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: not-allowed;
+}
+
+.task-input {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.input-box {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  /* width: 10px; */
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.add-button {
+  padding: 10px 20px; 
+  /* margin-right: 60px; */
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: not-allowed;
+}
+
+.task-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #F8DDF8;
+}
+
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.task-buttons button {
+  margin-left: 5px;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: not-allowed;
+}
+
+.edit-button {
+  background-color: #ffc107;
+}
+
+.delete-button {
+  background-color: #f44336;
+  color: #fff;
+}
+
+.done-button {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+.task-text {
+  flex: 1;
+  /* padding: 5px; */
+  /* margin: 4px; */
+}
